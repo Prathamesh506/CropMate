@@ -1,0 +1,423 @@
+[
+  {
+    "model": "services.serviceagent",
+    "pk": 1,
+    "fields": {
+      "name": "Ramesh Patil",
+      "service_type": "Tractor Service",
+      "location": "Bagewadi",
+      "phone_number": "9876543210"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 2,
+    "fields": {
+      "name": "Suresh Desai",
+      "service_type": "Irrigation Expert",
+      "location": "Halabhavi",
+      "phone_number": "9123456789"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 3,
+    "fields": {
+      "name": "Anjali Joshi",
+      "service_type": "Crop Consultant",
+      "location": "Honaga",
+      "phone_number": "9012345678"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 4,
+    "fields": {
+      "name": "Sunita Naik",
+      "service_type": "Fertilizer Supplier",
+      "location": "Kadoli",
+      "phone_number": "9988776655"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 5,
+    "fields": {
+      "name": "Prakash Kamble",
+      "service_type": "Veterinary Assistant",
+      "location": "Dhamane S. Belgaum",
+      "phone_number": "9876123450"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 6,
+    "fields": {
+      "name": "Deepa Jadhav",
+      "service_type": "Seed Supplier",
+      "location": "Bastawad",
+      "phone_number": "9765432109"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 7,
+    "fields": {
+      "name": "Mahesh Gokhale",
+      "service_type": "Crop Consultant",
+      "location": "Halaga",
+      "phone_number": "9823456781"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 8,
+    "fields": {
+      "name": "Sneha Kulkarni",
+      "service_type": "Irrigation Expert",
+      "location": "Uchagaon",
+      "phone_number": "9812345679"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 9,
+    "fields": {
+      "name": "Vikas Patil",
+      "service_type": "Veterinary Assistant",
+      "location": "Marihal",
+      "phone_number": "9834567890"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 10,
+    "fields": {
+      "name": "Pooja Deshpande",
+      "service_type": "Fertilizer Supplier",
+      "location": "Hudali",
+      "phone_number": "9976543210"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 11,
+    "fields": {
+      "name": "Amit Hegde",
+      "service_type": "Seed Supplier",
+      "location": "Kanvi Karvinakoppa",
+      "phone_number": "9876012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 12,
+    "fields": {
+      "name": "Radha Joshi",
+      "service_type": "Crop Consultant",
+      "location": "Balekundri (K.H)",
+      "phone_number": "9765012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 13,
+    "fields": {
+      "name": "Nitin Chavan",
+      "service_type": "Tractor Service",
+      "location": "Santibastawad",
+      "phone_number": "9734567810"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 14,
+    "fields": {
+      "name": "Priya Patil",
+      "service_type": "Crop Consultant",
+      "location": "Muchandi",
+      "phone_number": "9823456701"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 15,
+    "fields": {
+      "name": "Manoj Patil",
+      "service_type": "Seed Supplier",
+      "location": "Waghawade",
+      "phone_number": "9812345602"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 16,
+    "fields": {
+      "name": "Seema Kulkarni",
+      "service_type": "Irrigation Expert",
+      "location": "Balekundri (B.K)",
+      "phone_number": "9798765432"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 17,
+    "fields": {
+      "name": "Ravi Joshi",
+      "service_type": "Veterinary Assistant",
+      "location": "Ankalagi (Badalankalagi)",
+      "phone_number": "9826012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 18,
+    "fields": {
+      "name": "Komal Patil",
+      "service_type": "Crop Consultant",
+      "location": "Desur",
+      "phone_number": "9786543201"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 19,
+    "fields": {
+      "name": "Sharad Naik",
+      "service_type": "Seed Supplier",
+      "location": "Shindoli (Part)",
+      "phone_number": "9976012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 20,
+    "fields": {
+      "name": "Akshay Desai",
+      "service_type": "Tractor Service",
+      "location": "Ambewadi",
+      "phone_number": "9876012389"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 21,
+    "fields": {
+      "name": "Shruti Patil",
+      "service_type": "Crop Consultant",
+      "location": "Sulge (Uchagaon)",
+      "phone_number": "9887654321"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 22,
+    "fields": {
+      "name": "Rohit Hegde",
+      "service_type": "Veterinary Assistant",
+      "location": "Belgundi",
+      "phone_number": "9812012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 23,
+    "fields": {
+      "name": "Neha Kulkarni",
+      "service_type": "Fertilizer Supplier",
+      "location": "Kalakhamb",
+      "phone_number": "9796543210"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 24,
+    "fields": {
+      "name": "Rajesh Patil",
+      "service_type": "Seed Supplier",
+      "location": "Tarihal",
+      "phone_number": "9865432109"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 25,
+    "fields": {
+      "name": "Swati Desai",
+      "service_type": "Irrigation Expert",
+      "location": "Bhendigeri",
+      "phone_number": "9814567890"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 26,
+    "fields": {
+      "name": "Ashok Jadhav",
+      "service_type": "Crop Consultant",
+      "location": "Modge",
+      "phone_number": "9785612340"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 27,
+    "fields": {
+      "name": "Vaishali Kulkarni",
+      "service_type": "Tractor Service",
+      "location": "Kudremani",
+      "phone_number": "9812012398"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 28,
+    "fields": {
+      "name": "Ganesh Kamble",
+      "service_type": "Veterinary Assistant",
+      "location": "Karadiguddi",
+      "phone_number": "9876543201"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 29,
+    "fields": {
+      "name": "Anita Hegde",
+      "service_type": "Seed Supplier",
+      "location": "Badas (K.H)",
+      "phone_number": "9734012345"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 30,
+    "fields": {
+      "name": "Sanjay Joshi",
+      "service_type": "Fertilizer Supplier",
+      "location": "Mannur",
+      "phone_number": "9712345602"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 31,
+    "fields": {
+      "name": "Divya Naik",
+      "service_type": "Crop Consultant",
+      "location": "Honnihal",
+      "phone_number": "9834567012"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 32,
+    "fields": {
+      "name": "Vishal Patil",
+      "service_type": "Irrigation Expert",
+      "location": "Nilaji",
+      "phone_number": "9812012347"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 33,
+    "fields": {
+      "name": "Meena Desai",
+      "service_type": "Veterinary Assistant",
+      "location": "Kedanur",
+      "phone_number": "9754321098"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 34,
+    "fields": {
+      "name": "Shivraj Patil",
+      "service_type": "Tractor Service",
+      "location": "Uchagaon",
+      "phone_number": "9898989898"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 35,
+    "fields": {
+      "name": "Raj bhosle",
+      "service_type": "Crop Consultant",
+      "location": "Marihal",
+      "phone_number": "9888777666"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 36,
+    "fields": {
+      "name": "Prathamesh patil",
+      "service_type": "Irrigation Expert",
+      "location": "Hudali",
+      "phone_number": "9777666555"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 37,
+    "fields": {
+      "name": "Pranav Badaskar",
+      "service_type": "Fertilizer Supplier",
+      "location": "Kanvi Karvinakoppa",
+      "phone_number": "9666555444"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 38,
+    "fields": {
+      "name": "Amruta Yadav",
+      "service_type": "Seed Supplier",
+      "location": "Balekundri (K.H)",
+      "phone_number": "9555444333"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 39,
+    "fields": {
+      "name": "Sarika Hegde",
+      "service_type": "Veterinary Assistant",
+      "location": "Santibastawad",
+      "phone_number": "9444333222"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 40,
+    "fields": {
+      "name": "Shobha Patil",
+      "service_type": "Crop Consultant",
+      "location": "Muchandi",
+      "phone_number": "9333222111"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 41,
+    "fields": {
+      "name": "Shivraj kadam",
+      "service_type": "Irrigation Expert",
+      "location": "Waghawade",
+      "phone_number": "9222111000"
+    }
+  },
+  {
+    "model": "services.serviceagent",
+    "pk": 42,
+    "fields": {
+      "name": "Raj Pawar",
+      "service_type": "Crop Consultant",
+      "location": "",
+      "phone_number": ""
+    }
+  }
+
+]

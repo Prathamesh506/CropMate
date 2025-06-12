@@ -1,0 +1,73 @@
+.about-section,
+.contact-section {
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.about-section:hover,
+.contact-section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.about-section h2,
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #0077b5; /* Default LinkedIn color */
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: #005983;
+  transform: scale(1.05);
+}
+
+.contact-btn.instagram {
+  background-color: #e4405f;
+}
+
+.contact-btn.instagram:hover {
+  background-color: #c12f4d;
+}
+
+.contact-btn.email {
+  background-color: #6fcf97;
+}
+
+.contact-btn.email:hover {
+  background-color: #53b57c;
+}

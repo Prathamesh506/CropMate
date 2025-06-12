@@ -1,0 +1,231 @@
+/* src/pages/CropGuidePage.css */
+
+/* Main Container */
+.croppage-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;      /* Centers the content vertically */
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;          /* Maximum width of the search bar container */
+    margin-left: auto;         /* Centers the element by setting left margin to auto */
+    margin-right: auto;        /* Centers the element by setting right margin to auto */
+}
+
+
+.search-input {
+    padding: 0.8rem 1.2rem;
+    border: 2px solid #10b981;
+    border-radius: 9999px;
+    outline: none;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+}
+
+.search-button,
+.mic-button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.search-button:hover,
+.mic-button:hover {
+    background-color: #059669;
+}
+
+.loading,
+.error {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #ef4444;
+}
+  
+  /* ============================
+     Video Grid
+  ============================ */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(300px, auto);
+  }
+  
+  .video-card {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-thumbnail {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .video-info {
+    padding: 12px;
+  }
+  
+  .video-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .video-channel {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* ============================
+     Articles Section
+  ============================ */
+  .articles-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .articles-section li {
+    margin-bottom: 10px;
+  }
+  
+  .articles-section a {
+    color: #1E90FF;
+    text-decoration: underline;
+  }
+  
+  .articles-section a:hover {
+    color: #007ACC;
+  }
+  
+  /* ============================
+     Loading & Error Message
+  ============================ */
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #888;
+  }
+  
+  /* ============================
+     Microphone Button
+  ============================ */
+  .mic-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #10b981;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .mic-button:focus {
+    outline: none;
+  }
+  
+  /* ============================
+     Responsive Design
+  ============================ */
+  @media screen and (max-width: 1024px) {
+    .video-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .search-form input {
+      width: 80%;
+    }
+  }
+  
+  /* Articles Section */
+.articles-section {
+    padding: 1rem;
+    background-color: #f9fafb;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .articles-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  .articles-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .articles-section li {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .articles-section li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .articles-section a {
+    text-decoration: none;
+    color: #2563eb;
+    display: block;
+  }
+  
+  .articles-section a h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .articles-section a p {
+    font-size: 0.9rem;
+    color: #4b5563;
+    word-break: break-all;
+  }
+  
