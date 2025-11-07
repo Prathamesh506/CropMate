@@ -1,5 +1,5 @@
 
-# 🌾 Project Paradox
+# 🌾 CropMate
 
 Project Paradox is an innovative agriculture support platform designed to empower farmers with crop recommendations, expert guidance, and support services like disease detection and contact resources.
 
